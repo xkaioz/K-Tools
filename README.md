@@ -1,1 +1,1 @@
-For help add me on Discord: 9393939393939393
+Add me on Discord if you need help —> zKaioZ
