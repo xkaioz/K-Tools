@@ -1,3 +1,0 @@
-requests
-colorama
-python-nmap
