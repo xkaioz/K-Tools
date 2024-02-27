@@ -7,13 +7,9 @@ import nmap
 from art import *
 from termcolor import colored
 colorama.init(autoreset=True)
-os.system("git pull")
-os.system('CLS')
-os.system('clear')
-
+os.system('cls' if os.name == 'nt' else 'clear')
 def iplookup():
-    os.system('CLS')
-    os.system('clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(colored(text2art ("IP Lookup"), 'blue'))
     ip = input(Fore.RED + Style.NORMAL + "Please enter an IP address or domain name : ")
     print("\n")
